@@ -1,8 +1,8 @@
 {
-    "name": "ғʟᴀᴍᴇ Vc Player",
+    "name": "Zed Vc Player",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
-    "keywords": ["Zedian", "Zedian-MUSIC", "music", "voice chat", "telegram", "Rocks", "RockMusic", "Private Music"],
-    "repository": "https://github.com/S780821/Zedian-MUSIC",
+    "keywords": ["Zedian", "Zedian-MUSIC", "music", "voice chat", "telegram", "Zed", "ZedMusic", "Private Music"],
+    "repository": "https://github.com/ItsBlackDemon/Zedian-MUSIC",
   "stack": "container",
     "env": {
         "SESSION_NAME": {
