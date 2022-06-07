@@ -31,11 +31,11 @@ async def alive(event):
                                   caption=Zedian,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/Zedian_updates"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/Zedian_project")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/Zedianupdates"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/ZedianSupport")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/S780821/Zedian-Music")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/ItsBlackDemon/Zedian-Music")
         ]
         ]
         )
