@@ -8,7 +8,7 @@ from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT
 
 
 ALIVE_PIC = START_PIC
-HOME_TEXT = "👋🏻 **Hi Sir [{}](tg://user?id={})** \n\n🤖 Im **Zedian Vc Player**. \n**I Can Stream Lives, Radios, Raid, Vc Raid, YouTube Videos & Telegram Video Files On Voice Chat Of Telegram Groups**"
+HOME_TEXT = "👋🏻 **ʜᴇʏ ᴅᴇᴀʀ... [{}](tg://user?id={})** \n\n🤖 Im ** 𝙕𝙚𝙙𝙞𝙖𝙣 **. \n**ɪ ᴄᴀɴ sᴛʀᴇᴀᴍ ʟɪᴠᴇs, ʀᴀᴅɪᴏs, ʀᴀɪᴅ, ᴠᴄ ʀᴀɪᴅ, ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏs &amp; ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ ꜰɪʟᴇs ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴏꜰ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs**"
 HELP_TEXT = """
 🏷️ **Setup Guide** :
 
@@ -62,19 +62,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("👮 Aᴅᴍɪɴꜱ", url="https://t.me/Zedian_Updates/7"),
-                InlineKeyboardButton("🗨️ Uꜱᴇʀꜱ", callback_data="users"),
+                InlineKeyboardButton("◽️ ❙ ᴀᴅᴍɪɴ", url="https://t.me/ZedianUpdates"),
+                InlineKeyboardButton("◽️ ❙ ᴄᴏᴍᴍᴀɴᴅs", callback_data="users"),
             ],
             [
-                InlineKeyboardButton("🤬 Rᴀɪᴅ", callback_data="raid"),
-                InlineKeyboardButton("🗨️ Sᴘᴀᴍ", callback_data="spam"),
+                InlineKeyboardButton("◽️ ❙ ʀᴀɪᴅ", callback_data="raid"),
+                InlineKeyboardButton("◽️ ❙ sᴘᴀᴍ", callback_data="spam"),
             ],
             [
-                InlineKeyboardButton("🤖 ᴏᴡɴᴇʀ", url="t.me/xmartperson"),
+                InlineKeyboardButton("◽️ ❙ ᴏᴡɴᴇʀ", url="t.me/owo_hiro"),
             ],
             [
-                InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="home"),
-                InlineKeyboardButton("🤷 Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("🔙 ❙ ʙᴀᴄᴋ", callback_data="home"),
+                InlineKeyboardButton("⇲ ❙ ᴄʟᴏsᴇ", callback_data="close"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -91,17 +91,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         USERNAME = get_me.username
         buttons = [
             [
-                InlineKeyboardButton("🧐 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ", url='https://t.me/{USERNAME}?startgroup=true'),
+                InlineKeyboardButton("➕ ∣ ᴀᴅᴅ ᴢᴇᴅ ᴍᴜsɪᴄ", url='https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
-                InlineKeyboardButton(" Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton(" Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("🚑 ∣ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("🧪 ∣ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
-                InlineKeyboardButton("🤖 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/S780821/Zedian-Music"),
+                InlineKeyboardButton("🌐 ∣ ɢʀᴘ ʙᴏᴛ", url="https://t.me/zedianBot"),
             ],
             [
-                InlineKeyboardButton("🤔 Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
+                InlineKeyboardButton("⚙️ ∣ ʜᴇʟᴘ", callback_data="help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -116,8 +116,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="users":
         buttons = [
             [
-                InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("🤷 Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("🔙 ❙ ʙᴀᴄᴋ", callback_data="help"),
+                InlineKeyboardButton("⇲ ❙ ᴄʟᴏsᴇ", callback_data="close"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -132,8 +132,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="admins":
         buttons = [
             [
-                InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("🤷 Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("🔙 ❙ ʙᴀᴄᴋ", callback_data="help"),
+                InlineKeyboardButton("⇲ ❙ ᴄʟᴏsᴇ", callback_data="close"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -145,8 +145,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="raid":
         buttons = [
             [
-                InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("🤷 Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("🔙 ❙ ʙᴀᴄᴋ", callback_data="help"),
+                InlineKeyboardButton("⇲ ❙ ᴄʟᴏsᴇ", callback_data="close"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -161,8 +161,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="spam":
         buttons = [
             [
-                InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("🤷 Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("🔙 ❙ ʙᴀᴄᴋ", callback_data="help"),
+                InlineKeyboardButton("⇲ ❙ ᴄʟᴏsᴇ", callback_data="close"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -188,17 +188,17 @@ async def start(client: Client, message: Message):
     USERNAME = get_me.username
     buttons = [
             [
-                InlineKeyboardButton("🧐 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ", url=f'https://t.me/{USERNAME}?startgroup=true'),
+                InlineKeyboardButton("➕ ∣ ᴀᴅᴅ ᴢᴇᴅ ᴍᴜsɪᴄ", url=f'https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
-                InlineKeyboardButton(" Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton(" Oꜰꜰɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("🚑 ∣ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("🧪 ∣ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
-                InlineKeyboardButton("🤖 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/S780821/Zedian-Music"),
+                InlineKeyboardButton("🌐 ∣ ɢʀᴘ ʙᴏᴛ", url="https://t.me/zedianBot"),
             ],
             [
-                InlineKeyboardButton("🤔 Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
+                InlineKeyboardButton("⚙️ ∣ ʜᴇʟᴘ", callback_data="help"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -210,19 +210,19 @@ async def help(client: Client, message: Message):
     self.username = get_me.username
     buttons = [
             [
-                InlineKeyboardButton("👮 Aᴅᴍɪɴꜱ", url="https://t.me/Zedian_Updates/7"),
-                InlineKeyboardButton("🗨️ Uꜱᴇʀꜱ", callback_data="users"),
+                InlineKeyboardButton("◽️ ❙ ᴀᴅᴍɪɴ", url="https://t.me/ZedianUpdates"),
+                InlineKeyboardButton("◽️ ❙ ᴄᴏᴍᴍᴀɴᴅs", callback_data="users"),
             ],
             [
-                InlineKeyboardButton("🤬 Rᴀɪᴅ", callback_data="raid"),
-                InlineKeyboardButton("🗨️ Sᴘᴀᴍ", callback_data="spam"),
+                InlineKeyboardButton("◽️ ❙ ʀᴀɪᴅ", callback_data="raid"),
+                InlineKeyboardButton("◽️ ❙ sᴘᴀᴍ", callback_data="spam"),
             ],
             [
-                InlineKeyboardButton("🤖 ᴏᴡɴᴇʀ", url="t.me/xmartperson"),
+                InlineKeyboardButton("◽️ ❙ ᴏᴡɴᴇʀ", url="t.me/owo_hiro"),
             ],
             [
-                InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="home"),
-                InlineKeyboardButton("🤷 Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("🔙 ❙ ʙᴀᴄᴋ", callback_data="home"),
+                InlineKeyboardButton("⇲ ❙ ᴄʟᴏsᴇ", callback_data="close"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
