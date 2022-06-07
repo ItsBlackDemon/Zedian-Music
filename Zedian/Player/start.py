@@ -193,7 +193,7 @@ async def start(client: Client, message: Message):
                 InlineKeyboardButton("🧪 ∣ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
-                InlineKeyboardButton("🌐 ∣ ɢʀᴘ ʙᴏᴛ", url="https://t.me/zedianBot"),
+                InlineKeyboardButton("🌐 ∣ ʙᴏᴛ", url="https://t.me/zedianBot"),
                 InlineKeyboardButton("⚙️ ∣ ʜᴇʟᴘ", callback_data="help"),
             ],
             ]
