@@ -98,11 +98,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("🧪 ∣ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
-                InlineKeyboardButton("🌐 ∣ ɢʀᴘ ʙᴏᴛ", url="https://t.me/zedianBot"),
-            ],
-            [
+                InlineKeyboardButton("🌐 ∣ ʙᴏᴛ", url="https://t.me/zedianBot"),
                 InlineKeyboardButton("⚙️ ∣ ʜᴇʟᴘ", callback_data="help"),
-            ]
+            ],
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
         try:
