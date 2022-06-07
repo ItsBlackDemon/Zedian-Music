@@ -7,7 +7,7 @@
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 
 ## 🅡🅔🅟🅞 🅢🅣🅐🅣🅢
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=S780821&repo=Zedian-Music&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=S780821&repo=Zedian.Music&theme=dark)
 
 <h3>ʀᴇQᴜɪʀᴇᴍᴇɴᴛꜱ 📝</h3>
 
@@ -31,7 +31,7 @@
 
 ## ᴄᴏᴍᴍᴀɴᴅꜱ 
 
-[CLICK HERE](https://t.me/Zedian_Updates/7)
+[CLICK HERE](https://t.me/ZedianUpdates)
 
 
 ## ꜰᴇᴀᴛᴜʀᴇꜱ ᴡɪᴛʜ ᴀɪ 🔥️
@@ -115,7 +115,7 @@
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚄
 ꜰᴏʀ ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ ᴍᴀᴋᴇ [Necessary Variables Here](https://github.com/ITZ-ZAID/Zaid-Vc-Player), ᴜ ʜᴀᴠᴇ ᴛᴏ ꜰɪʟʟ.
 
-<p align="center"><a href="https://railway.app/new/template?template=https://github.com/S780821/Zedian_MusicRail&envs=SESSION_NAME,BOT_TOKEN,GROUP_SUPPORT,UPDATES_CHANNEL,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT"> <img src="https://img.shields.io/badge/Deploy%20To%20Railway-black?style=for-the-badge&logo=railway" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://railway.app/new/template?template=https://github.com/ItsBlackDemon/Zedian.MusicRail&envs=SESSION_NAME,BOT_TOKEN,GROUP_SUPPORT,UPDATES_CHANNEL,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT"> <img src="https://img.shields.io/badge/Deploy%20To%20Railway-black?style=for-the-badge&logo=railway" width="220" height="38.45"/></a></p>
 
 
 <h2 align="center">
@@ -124,8 +124,8 @@
 
 
 ```console
-$ git clone https://github.com/S780821/Zedian-Music
-$ cd Zedian-Music
+$ git clone https://github.com/ItsBlackDemon/Zedian.Music
+$ cd Zedian.Music
 $ bash setup
 $ cp sample.env .env
 ```
