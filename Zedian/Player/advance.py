@@ -16,7 +16,7 @@ deadlyversion = 'Spambot0.10'
 
   
 
-Zedian = "✯ 𝐌𝐮𝐬𝐢𝐜+𝐑𝐚𝐢𝐝 𝐒𝐩𝐚𝐦 𝐁𝐨𝐭 ✯\n\n"
+Zedian = "✯ 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 ✯\n\n"
 Zedian += f"═══════════════════\n"
 Zedian += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.1`\n"
 Zedian += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
@@ -35,7 +35,7 @@ async def alive(event):
         Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/ZedianSupport")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/ItsBlackDemon/Zedian-Music")
+        Button.url("• ᴏᴡɴᴇʀ •", "https://t.me/owo_hiro")
         ]
         ]
         )
