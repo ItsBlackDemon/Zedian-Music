@@ -2,8 +2,8 @@ from Zedian.main import bot
 from pyrogram import filters
 
 
-OWNER = 5083524212
-sudos = 5083524212
+OWNER = 5432629190
+sudos = 5432629190
 
 @bot.on_message(filters.command("info"))
 def info(_, message):
