@@ -194,10 +194,8 @@ async def start(client: Client, message: Message):
             ],
             [
                 InlineKeyboardButton("🌐 ∣ ɢʀᴘ ʙᴏᴛ", url="https://t.me/zedianBot"),
-            ],
-            [
                 InlineKeyboardButton("⚙️ ∣ ʜᴇʟᴘ", callback_data="help"),
-            ]
+            ],
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_photo(photo=f"{ALIVE_PIC}", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
