@@ -2,12 +2,12 @@
 
 ### ғʟᴀᴍᴇ ᴠᴄ ᴘʟᴀᴇʀ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
-<p align="center"><a href="https://t.me/Zedian_Updates"><img src="https://telegra.ph/file/2c23f012984fa91267146.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/ZedianUpdates"><img src="https://telegra.ph/file/12a95f0fa85ec00874275.jpg" width="300"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 
 ## 🅡🅔🅟🅞 🅢🅣🅐🅣🅢
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=ItsBlackDemon&repo=Zedian.Music&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=I\itsBlackDemon&repo=Zedian.Music&theme=dark)
 
 <h3>ʀᴇQᴜɪʀᴇᴍᴇɴᴛꜱ 📝</h3>
 
